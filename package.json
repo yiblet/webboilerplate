@@ -4,7 +4,7 @@
   "description": "Simple Homepage",
   "main": "index.js",
   "scripts": {
-    "test": "gulp build & live-server build"
+    "test": "gulp watch & live-server build"
   },
   "browserify": {
     "transform": [
