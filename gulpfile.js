@@ -30,7 +30,7 @@ gulp.task('vendors', () => {
 })
 
 gulp.task('browserify', () => {
-  return gulp.src(`${srcDir}/js/main.js`)
+  return gulp.src(`${srcDir}/js/*.js`)
     .pipe(plumber())
     .pipe(tap(
       (file) => {
